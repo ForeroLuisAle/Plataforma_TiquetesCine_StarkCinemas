@@ -16,7 +16,7 @@ app.debug = True #para poder actualizar las paginas con solo refrescar las pagin
 app.secret_key = 'c0v1-d1sp4p3l3s#2022' #os.urandom(24)  #'Hola mundo'
 
 if __name__ =='__main__': #para que pueda funcionar el app.debug = true
-   app.run(debug=True, port=5000)
+   app.run(debug=True)#, port=5000)
 
 
 def convertToBinaryData(filename):
